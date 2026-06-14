@@ -9,11 +9,11 @@ import {
   type ReactNode,
 } from "react";
 
-export const THEMES = ["paper", "sepia", "ink"] as const;
+export const THEMES = ["sepia", "ink"] as const;
 export type Theme = (typeof THEMES)[number];
 
 const STORAGE_KEY = "kktc-news-theme";
-const DEFAULT_THEME: Theme = "paper";
+const DEFAULT_THEME: Theme = "sepia";
 
 interface ThemeContextValue {
   theme: Theme;

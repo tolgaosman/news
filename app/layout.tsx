@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Source_Serif_4 } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import { ReaderSettings } from "@/components/ReaderSettings";
 import "./globals.css";
 
 const inter = Inter({
@@ -23,13 +22,13 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: "Artun Çağa — Kuzey Kıbrıs üzerine yazılar",
+  title: "Tolga Osman Falay — Kuzey Kıbrıs üzerine yazılar",
   description:
-    "Artun Çağa'nın kişisel sitesi: Kuzey Kıbrıs'ın ekonomisi, kültürü ve doğası üzerine yazılar ve düşünceler.",
+    "Tolga Osman Falay'ın kişisel sitesi: Kuzey Kıbrıs'ın ekonomisi, kültürü ve doğası üzerine yazılar ve düşünceler.",
 };
 
 // Set the stored theme before paint to prevent a flash of the default palette.
-const themeBootstrap = `(function(){try{var t=localStorage.getItem('kktc-news-theme');if(t==='paper'||t==='sepia'||t==='ink'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();`;
+const themeBootstrap = `(function(){try{var t=localStorage.getItem('kktc-news-theme');if(t==='sepia'||t==='ink'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();`;
 
 export default function RootLayout({
   children,
@@ -39,7 +38,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      data-theme="paper"
+      data-theme="sepia"
       className={`${inter.variable} ${playfair.variable} ${sourceSerif.variable}`}
     >
       <head>
@@ -48,7 +47,6 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         <ThemeProvider>
           {children}
-          <ReaderSettings />
         </ThemeProvider>
       </body>
     </html>

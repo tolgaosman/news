@@ -70,7 +70,7 @@ export default function HomePage() {
 
       <footer className="mx-auto mt-20 max-w-6xl px-6 sm:px-8">
         <div className="flex flex-col items-center justify-between gap-3 border-t border-line py-8 text-sm text-faint sm:flex-row">
-          <span className="font-display text-base text-ink">Artun Çağa</span>
+          <span className="font-display text-base text-ink">Tolga Osman Falay</span>
           <span>© {new Date().getFullYear()} · Lefkoşa, Kıbrıs</span>
         </div>
       </footer>
