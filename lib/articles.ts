@@ -17,7 +17,6 @@ export interface Article {
   dek: string;
   category: ArticleCategory;
   readMinutes: number;
-  author: string;
   /** Human-readable publish date. */
   date: string;
   /** Two-letter location tag, e.g. "Girne". */
@@ -35,7 +34,6 @@ export const ARTICLES: Article[] = [
     dek: "A weak pound was supposed to cool British appetite for Northern Cyprus property. Instead, it has rewritten the skyline of Girne — and the economics of an entire coastline.",
     category: "Economy & Real Estate",
     readMinutes: 5,
-    author: "Selin Arıkan",
     date: "June 11, 2026",
     location: "Girne",
     cover: "from-[#d8c7a8] via-[#cbb791] to-[#b39e74]",
@@ -54,7 +52,6 @@ export const ARTICLES: Article[] = [
     dek: "Tens of thousands of students from dozens of countries have turned a walled medieval city into one of the Mediterranean's most unexpected cultural crossroads.",
     category: "Culture & Life",
     readMinutes: 7,
-    author: "Deniz Yıldırım",
     date: "June 9, 2026",
     location: "Gazimağusa",
     cover: "from-[#c9b9d6] via-[#bfa9c8] to-[#a892b8]",
@@ -74,7 +71,6 @@ export const ARTICLES: Article[] = [
     dek: "The long, wild finger of land pointing toward the Levant is one of the Mediterranean's last quiet coastlines. The question is whether it can stay that way and still pay its way.",
     category: "Environment",
     readMinutes: 4,
-    author: "Mehmet Korkut",
     date: "June 7, 2026",
     location: "Karpaz",
     cover: "from-[#a9c2a0] via-[#94b58a] to-[#7ba26f]",
@@ -91,7 +87,6 @@ export const ARTICLES: Article[] = [
     dek: "In the last divided capital in Europe, a cohort of young entrepreneurs is turning the buffer zone's edges into something unexpectedly alive.",
     category: "Culture & Life",
     readMinutes: 6,
-    author: "Ayça Demir",
     date: "June 4, 2026",
     location: "Lefkoşa",
     cover: "from-[#d4b9a3] via-[#c7a98f] to-[#b1957b]",

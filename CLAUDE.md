@@ -4,15 +4,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Status
 
-Active. The front-end of an editorial news site for Northern Cyprus (KKTC) is
-built and rendering with mock content. Keep the sections below in sync as the
-project grows — do not invent details that aren't yet true.
+Active. The front-end of a personal site for Artun Çağa is built and rendering
+with mock content. Keep the sections below in sync as the project grows — do not
+invent details that aren't yet true.
 
 ## Project Overview
 
-`news` ("The Levant Review") is a slow-journalism editorial site focused on
-Northern Cyprus (KKTC) — long-form reporting on the economy/real estate,
-culture, and environment of the island, for readers who want depth over feed.
+`news` is the personal site of **Artun Çağa** — one person's place to post
+writing and observations about Northern Cyprus (KKTC): the economy/real estate,
+culture, and environment of the island. It reads as a personal journal/blog
+rather than a news outlet, so every entry is the owner's own writing (no reporter
+bylines).
 
 ## Tech Stack
 

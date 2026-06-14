@@ -24,15 +24,15 @@ export function SubscriptionBox() {
         <div className="mx-auto max-w-xl text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-line px-3 py-1 text-xs uppercase tracking-[0.14em] text-faint">
             <Mail className="h-3.5 w-3.5" />
-            The Weekly Dispatch
+            Yeni yazılar
           </span>
 
           <h2 className="mt-5 font-display text-2xl font-semibold leading-tight text-ink sm:text-3xl">
-            Northern Cyprus, considered slowly.
+            Yeni yazılarımdan haberdar ol.
           </h2>
           <p className="mt-3 text-muted">
-            One thoughtful edition each week — on the island&apos;s economy,
-            culture, and coastline. No noise, ever.
+            Yeni bir yazı yayınladığımda e-postana kısa bir not düşeyim. Ne
+            spam, ne gürültü — sadece adadan notlar.
           </p>
 
           <AnimatePresence mode="wait">
@@ -45,7 +45,7 @@ export function SubscriptionBox() {
                 className="mt-8 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-3 text-sm font-medium text-canvas"
               >
                 <Check className="h-4 w-4" />
-                You&apos;re on the list — welcome aboard.
+                Teşekkürler — yeni yazılarda görüşürüz.
               </motion.div>
             ) : (
               <motion.form
@@ -79,7 +79,7 @@ export function SubscriptionBox() {
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}
                   className="rounded-full bg-ink px-6 py-3 text-sm font-medium text-canvas focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2 focus-visible:ring-offset-surface"
                 >
-                  Subscribe
+                  Kaydol
                 </motion.button>
               </motion.form>
             )}
@@ -93,7 +93,7 @@ export function SubscriptionBox() {
                 exit={{ opacity: 0 }}
                 className="mt-3 text-sm text-accent"
               >
-                Please enter a valid email address.
+                Lütfen geçerli bir e-posta adresi gir.
               </motion.p>
             )}
           </AnimatePresence>

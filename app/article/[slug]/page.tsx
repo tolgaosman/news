@@ -13,9 +13,9 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: ArticlePageProps): Metadata {
   const article = getArticle(params.slug);
-  if (!article) return { title: "Story not found — The Levant Review" };
+  if (!article) return { title: "Yazı bulunamadı — Artun Çağa" };
   return {
-    title: `${article.title} — The Levant Review`,
+    title: `${article.title} — Artun Çağa`,
     description: article.dek,
   };
 }

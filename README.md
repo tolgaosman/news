@@ -1,7 +1,7 @@
-# The Levant Review
+# Artun Çağa
 
-Slow-journalism editorial site focused on Northern Cyprus (KKTC) — long-form
-reporting on the economy & real estate, culture, and environment of the island.
+Artun Çağa'nın kişisel sitesi — Kuzey Kıbrıs (KKTC) üzerine yazılar ve
+düşünceler: ekonomi & emlak, kültür ve doğa.
 
 **Live:** https://tolgaosman.github.io/news/
 

@@ -30,14 +30,14 @@ export default function HomePage() {
       {/* Masthead intro */}
       <section className="mx-auto max-w-6xl px-6 pt-12 sm:px-8 sm:pt-16">
         <p className="text-xs uppercase tracking-[0.2em] text-faint">
-          Slow journalism · Northern Cyprus
+          Yazılar &amp; düşünceler · Kuzey Kıbrıs
         </p>
         <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold leading-[1.05] text-ink sm:text-5xl">
-          The island, read closely.
+          Adadan notlar.
         </h1>
         <p className="mt-4 max-w-xl text-lg text-muted">
-          Long-form reporting on the economy, culture, and environment of KKTC —
-          from Girne&apos;s coastline to the quiet of the Karpaz.
+          Kuzey Kıbrıs&apos;ın ekonomisi, kültürü ve doğası üzerine yazdıklarım —
+          Girne sahilinden Karpaz&apos;ın sessizliğine, kendi gözümden.
         </p>
 
         <div className="mt-9">
@@ -70,10 +70,8 @@ export default function HomePage() {
 
       <footer className="mx-auto mt-20 max-w-6xl px-6 sm:px-8">
         <div className="flex flex-col items-center justify-between gap-3 border-t border-line py-8 text-sm text-faint sm:flex-row">
-          <span className="font-display text-base text-ink">
-            The Levant Review
-          </span>
-          <span>© {new Date().getFullYear()} · Lefkoşa, Northern Cyprus</span>
+          <span className="font-display text-base text-ink">Artun Çağa</span>
+          <span>© {new Date().getFullYear()} · Lefkoşa, Kıbrıs</span>
         </div>
       </footer>
     </main>
@@ -87,10 +85,10 @@ function EmptyState() {
       animate={{ opacity: 1, y: 0 }}
       className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-line py-24 text-center"
     >
-      <p className="font-display text-xl text-ink">Nothing here yet</p>
+      <p className="font-display text-xl text-ink">Henüz bir şey yok</p>
       <p className="mt-2 max-w-sm text-muted">
-        No stories in this section right now. Try another category — the
-        newsroom is always working on the next dispatch.
+        Bu başlıkta şimdilik yazı yok. Başka bir kategoriye göz at — yenileri
+        yolda.
       </p>
     </motion.div>
   );

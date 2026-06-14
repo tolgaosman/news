@@ -56,7 +56,7 @@ export function ArticleView({ article }: { article: Article }) {
         </p>
 
         <div className="mt-6 flex items-center gap-3 border-y border-line py-4 text-sm text-faint">
-          <span className="text-ink">{article.author}</span>
+          <span className="text-ink">Artun Çağa</span>
           <span className="h-1 w-1 rounded-full bg-faint/70" />
           <span>{article.date}</span>
         </div>

@@ -83,7 +83,7 @@ export function ArticleCard({ article, variant = "standard" }: ArticleCardProps)
           </p>
 
           <div className="mt-auto flex items-center justify-between pt-6">
-            <span className="text-sm text-faint">By {article.author}</span>
+            <span className="text-sm text-faint">{article.date}</span>
             <span className="inline-flex items-center gap-1 text-sm font-medium text-accent">
               Read
               <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

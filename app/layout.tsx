@@ -23,9 +23,9 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: "The Levant Review — Northern Cyprus, in depth",
+  title: "Artun Çağa — Kuzey Kıbrıs üzerine yazılar",
   description:
-    "Slow journalism from Northern Cyprus (KKTC): real estate, culture, and the environment along the divided island's quietest coastlines.",
+    "Artun Çağa'nın kişisel sitesi: Kuzey Kıbrıs'ın ekonomisi, kültürü ve doğası üzerine yazılar ve düşünceler.",
 };
 
 // Set the stored theme before paint to prevent a flash of the default palette.
